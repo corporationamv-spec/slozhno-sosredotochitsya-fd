@@ -255,6 +255,7 @@
   }
 
   .content-section__title {
+    inline-size: 32.42%;
     max-inline-size: min(315px, 100%);
   }
 
@@ -263,6 +264,7 @@
   }
 
   .gallery {
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 192px 230px 318px;
   }
@@ -312,11 +314,19 @@
   }
 
   .header__description {
-    inline-size: calc(50% - 10px);
+    inline-size: 50%;
+  }
+
+  .content-section_type_two-columns {
+    grid-template-columns: 315px 1fr;
   }
 
   .content-section_type_causes {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .content-section__title {
+    inline-size: 100%;
   }
 
   .content-section_type_causes .content-section__cards {
