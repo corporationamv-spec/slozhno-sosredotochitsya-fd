@@ -341,6 +341,10 @@
     inline-size: 100%;
   }
 
+  .content-section_type_causes .content-section__title {
+    inline-size: 100%;
+  }
+
   .content-section_type_causes .content-section__cards {
     grid-column: 1 / -1;
     grid-template-columns: repeat(3, 1fr);
