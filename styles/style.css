@@ -50,7 +50,7 @@
 .header__rec {
   position: absolute;
   inset-block-start: 10px;
-  inset-inline-end: 29px;
+  inset-inline-end: 19px;
   color: var(--menu-color, #ff0070);
 }
 
@@ -318,7 +318,7 @@
 
   .header__theme-menu {
     justify-self: center;
-    margin-block-start: 20px;
+    margin-block-start: 30px;
   }
 
   .header__theme-menu-list {
