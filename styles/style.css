@@ -318,7 +318,7 @@
 
   .header__theme-menu {
     justify-self: center;
-    margin-block-start: 30px;
+    margin-block-start: 0;
   }
 
   .header__theme-menu-list {
